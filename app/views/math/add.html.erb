@@ -1,0 +1,8 @@
+<H1> Addition Calculator </H1>
+
+<form method="post" action='/math/compute'>
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>    
+First Number: <input type="f_num" name="f_num"><br>
+Second Number: <input type="s_num" name="s_num"><br>
+<input type="submit" value="compute">
+</form>
